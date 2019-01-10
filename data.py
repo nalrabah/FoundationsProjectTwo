@@ -32,3 +32,8 @@ pharmacy = Store("Pharmacy")
 stores.append(pharmacy)
 create_product(pharmacy, "Melatonin 5mg", "50 pills", 5)
 create_product(pharmacy, "Melatonin 10mg", "50 pills", 8)
+sephora = Store("Sephora")
+stores.append(sephora)
+create_product(sephora, "Eye liner", "Black Liquid Eyeliner", 12)
+create_product(sephora, "Avocado face mask", "A moisturising mask formulated with avocado and honey", 20)
+
